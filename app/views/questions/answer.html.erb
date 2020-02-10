@@ -1,0 +1,11 @@
+<h1> Silly Coach </h1>
+
+<% if @question.blank?%>
+<% else %>
+<%= @question %>
+<%end%>
+
+<%= @answer %>
+
+<h2> Hello there, it is currently ==> <%= Time.now%> </h2>
+
